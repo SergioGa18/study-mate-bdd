@@ -17,3 +17,7 @@ Cuando('pulso el botón sumar', function () {
 Entonces('el resultado debe ser {float}', function (esperado) {
   assert.strictEqual(this.resultado, esperado)
 })
+
+Cuando('pulso el botón restar', function () {
+  this.resultado = this.calculadora.restar(this.numeros[0], this.numeros[1])
+})
