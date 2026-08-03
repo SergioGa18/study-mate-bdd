@@ -25,3 +25,7 @@ Cuando('pulso el botón restar', function () {
 Cuando('pulso el botón multiplicar', function () {
   this.resultado = this.calculadora.multiplicar(this.numeros[0], this.numeros[1])
 })
+
+Cuando('pulso el botón dividir', function () {
+  this.resultado = this.calculadora.dividir(this.numeros[0], this.numeros[1])
+})
