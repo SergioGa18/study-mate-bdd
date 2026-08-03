@@ -1,0 +1,11 @@
+{
+  "name": "study-mate-bdd",
+  "version": "1.0.0",
+  "description": "Proyecto BDD con Cucumber.js - Tutorial 10 min + calculadora (Ingenieria del Software Avanzada, UNIR)",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0"
+  }
+}
