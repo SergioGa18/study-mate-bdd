@@ -21,3 +21,7 @@ Entonces('el resultado debe ser {float}', function (esperado) {
 Cuando('pulso el botón restar', function () {
   this.resultado = this.calculadora.restar(this.numeros[0], this.numeros[1])
 })
+
+Cuando('pulso el botón multiplicar', function () {
+  this.resultado = this.calculadora.multiplicar(this.numeros[0], this.numeros[1])
+})
